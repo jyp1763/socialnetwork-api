@@ -1,0 +1,19 @@
+{
+  "name": "socialnetwork-api",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "socialnetwork-api"
+  },
+  "keywords": [
+    "api",
+    "social"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -29,7 +29,7 @@ const thoughtController = {
         res.sendStatus(400);
       });
   },
-  addThought({ body }, res) {
+  createThought({ body }, res) {
     console.log(body);
     Thought.create(body)
       .then( thoughtData => {
