@@ -51,7 +51,6 @@ const ThoughtSchema = new Schema(
       required: true
     },
     
-    // use ReactionSchema to validate data for a reaction
     reactions: [ReactionSchema]
   },
   {
